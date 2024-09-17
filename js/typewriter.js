@@ -64,12 +64,3 @@ function init() {
   new TypeWriter(txtElement, words, wait);
 }
 
-class Social {
-  constructor(link) {
-    this.url = tab;
-  }
-
-  handler() {
-    window.open(this.url, "_blank");
-  }
-}
